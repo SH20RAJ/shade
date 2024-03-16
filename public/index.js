@@ -36,3 +36,13 @@ let showComments = (e) => {
     console.log(post);
 
 }
+
+document.querySelector("#reelbtn").addEventListener("click",()=> {
+    showSection("section1")
+})
+document.querySelector("#articlebtn").addEventListener("click",()=> {
+    showSection("section2")
+})
+document.querySelector("#imagebtn").addEventListener("click",()=> {
+    showSection("section3")
+})
