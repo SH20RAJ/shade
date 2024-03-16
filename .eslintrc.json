@@ -1,10 +1,7 @@
-{
-  "extends": "next"
-}
 
-// {
-//   "extends": "next/core-web-vitals",
-//   "rules": {
-//     "@next/next/no-sync-scripts": "off"
-//   }
-// }
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "@next/next/no-sync-scripts": "off"
+  }
+}
