@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import Script from "next/script";
 
 
-export default () => {
+export default Page = () => {
   return (
     <>
       <Nav />
