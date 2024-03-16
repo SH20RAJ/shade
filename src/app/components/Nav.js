@@ -4,7 +4,7 @@ export default function(){
         <nav>
   <div className="header"><Link href={"../"}>Shades</Link></div>
   <ul>
-    <Link href="#">
+    <Link href="../">
       <li>
         <ion-icon name="home-outline" />
       </li>

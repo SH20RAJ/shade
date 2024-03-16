@@ -3,6 +3,7 @@
 @tailwind utilities;
 @import url(./assets/css/videos.css);
 @import url(./assets/css/index.css);
+@import url(./assets/css/join.css);
 
 body {
   font-family: Poppins;

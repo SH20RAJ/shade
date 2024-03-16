@@ -1,8 +1,6 @@
-* {
-    box-sizing: border-box;
-}
 
-.playground {
+
+.join .playground {
     text-wrap: nowrap;
     overflow: auto;
     scroll-snap-type: x mandatory;
@@ -15,7 +13,7 @@
     /* Added */
 }
 
-.playground .layout {
+.join .playground  .layout {
     flex: 1 0 auto;
     /* Added */
     display: inline-block;
@@ -24,16 +22,16 @@
     scroll-snap-stop: always;
 }
 
-.flex {
+.join .flex {
     display: flex;
     justify-content: space-between;
 }
 
 /* Style for the active section */
-.active {
+.join .active {
     border: 2px solid black;
 }
-main {
+.join  {
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -42,16 +40,16 @@ main {
     min-height: 100vh;
     text-align: center;
 }
-.login-container {
+.join .login-container {
     align-self: center;
     /* margin-top: -100px; */
 }
-.login-container form {
+.join .login-container form {
     /* border: 2px solid; */
     text-align: center;
     padding: 2px;
 }
-.login-container form input {
+.join .login-container form input {
     box-sizing: border-box;
     display: block;
     margin-top: 20px;
@@ -59,16 +57,16 @@ main {
     margin-left: 0px;
 }
 
-.login-container span {
+.join .login-container span {
     display: inline-block;
     margin: 40px;
 }
 
-.tabs {
+.join .tabs {
     display: flex;
     gap: 2px;
 }
-.tabs button {
+.join .tabs button {
     display: block;
     width: 100%;
     margin: 0;
@@ -81,4 +79,8 @@ main {
  input:hover {
     /* background-color: transparent; */
     border-color: red;
+}
+
+input, button {
+    padding: 15px;
 }
