@@ -1,8 +1,8 @@
-import "@/app/assets/css/videos.css";
 
 export default () => {
   return (
     <>
+        
       <div className="videos">
         <div className="video">
           <div className="thumbnail">
@@ -142,8 +142,6 @@ export default () => {
             </div>
           </div>
         </div>
-      </div>
-      <div className="videos">
         <div className="video">
           <div className="thumbnail">
             <img
@@ -282,7 +280,10 @@ export default () => {
             </div>
           </div>
         </div>
+      
       </div>
+      
+        
     </>
   );
 };

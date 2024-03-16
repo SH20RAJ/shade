@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 body {
-  background: #fff;
+  /* background: #fff; */
   font-family: Poppins;
 }
 
@@ -15,7 +15,8 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
-  color: #000;
+  margin-top: 20px;
+  /* color: #000; */
 }
 .video {
   display: flex;

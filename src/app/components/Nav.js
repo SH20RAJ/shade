@@ -1,5 +1,4 @@
 import Link from "next/link";
-import "../assets/css/index.css";
 export default function(){
     return(
         <nav>
@@ -25,7 +24,7 @@ export default function(){
         <ion-icon name="flame-outline" />
       </li>
     </Link>
-    <Link href="#">
+    <Link href="../join">
       <li>
         <ion-icon name="person-circle-outline" />
       </li>
