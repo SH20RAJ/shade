@@ -1,34 +1,35 @@
+import Link from "next/link";
 import "../assets/css/index.css";
 export default function(){
     return(
         <nav>
-  <div className="header">Shades</div>
+  <div className="header"><Link href={"../"}>Shades</Link></div>
   <ul>
-    <a href="#">
+    <Link href="#">
       <li>
         <ion-icon name="home-outline" />
       </li>
-    </a>
-    <a href="#">
+    </Link>
+    <Link href="../search">
       <li>
         <ion-icon name="search-outline" />
       </li>
-    </a>
-    <a href="#">
+    </Link>
+    <Link href="../community">
       <li>
         <ion-icon name="contrast-outline" />
       </li>
-    </a>
-    <a href="#">
+    </Link>
+    <Link href="../videos">
       <li>
         <ion-icon name="flame-outline" />
       </li>
-    </a>
-    <a href="#">
+    </Link>
+    <Link href="#">
       <li>
         <ion-icon name="person-circle-outline" />
       </li>
-    </a>
+    </Link>
   </ul>
 </nav>
 

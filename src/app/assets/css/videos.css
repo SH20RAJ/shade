@@ -15,6 +15,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
+  color: #000;
 }
 .video {
   display: flex;
