@@ -1,7 +1,12 @@
-import Page from "@/app/community/page"
+import Container from "./components/Container";
+import Hero from "./components/Hero";
 
 export default function Home() {
   return (
-    <Page/>
+    <>
+    <Container/>
+    <Hero/>
+    
+    </>
   );
 }

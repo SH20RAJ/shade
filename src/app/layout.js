@@ -1,3 +1,5 @@
+import Footer from "./components/Footer";
+import Nav from "./components/Nav";
 import "./globals.css";
 
 export const metadata = {
@@ -8,8 +10,13 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className>{children}</body>
+    <html lang="en" data-theme="synthwave">
+      <body className>
+        
+        <Nav/>
+        {children}
+        <Footer/>
+        </body>
     </html>
   );
 }
