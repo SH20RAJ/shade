@@ -1,11 +1,13 @@
-import Sidebar from "./Sidebar";
+import Hero from "./Hero";
 
 export default function() {
     return (
         <>
-        <div className="flex pt-2">
-            <Sidebar/>
-            <div id="maincontent" className="flex min-h-screen bg-red-200 w-full"></div>
+        <div className="container mt-20 ml-20">
+            Hlw World!
+
+
+            <Hero/>
         </div>
         </>
     )
